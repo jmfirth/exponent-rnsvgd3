@@ -1,0 +1,23 @@
+{
+  "name": "d3test",
+  "version": "0.0.0",
+  "description": "Hello Exponent!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@exponent/vector-icons": "~4.0.0",
+    "d3": "^4.6.0",
+    "d3-hexbin": "^0.2.1",
+    "exponent": "^14.0.0",
+    "native-base": "^2.0.10",
+    "react": "~15.4.0",
+    "react-native": "https://github.com/exponent/react-native/archive/sdk-14.0.0.tar.gz",
+    "react-native-animatable": "^1.1.0",
+    "react-native-router-flux": "^3.37.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.2",
+    "redux-persist": "^4.4.2"
+  }
+}
