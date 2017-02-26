@@ -21,7 +21,7 @@ let i = -1;
 let theta = 0;
 let randomX = randomNormal(width / 2, 80);
 let randomY = randomNormal(height / 2, 80);
-let points = range(n).map(function() { return [randomX(), randomY()]; });
+let points = range(n).map(() => ([randomX(), randomY()]));
 
 const color = scaleLinear()
   .domain([0, 20])
@@ -38,7 +38,7 @@ export default class Hexbins extends Component {
   };
 
   componentDidMount() {
-    this.handle = window.setInterval(() => { this.updateHexbins(); }, 20);
+    this.handle = window.setInterval(() => this.updateHexbins();, 20);
   }
 
   componentWillUnmount() {
